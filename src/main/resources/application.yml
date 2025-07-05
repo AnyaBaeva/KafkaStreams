@@ -1,0 +1,19 @@
+#kafka:
+#  bootstrapServers: "localhost:9092"
+#  topics:
+#    inputMessages: "input-messages"
+#    filteredMessages: "filtered-messages"
+#    blockedUsers: "blocked-users-topic"
+#    forbiddenWords: "forbidden-words-topic"
+#  stores:
+#    blockedUsers: "blocked-users-store"
+#    forbiddenWords: "forbidden-words-store"
+#
+#app:
+#  processingGuarantee: "exactly_once"
+#  autoOffsetReset: "earliest"
+#  cacheMaxBytesBuffering: 0
+#
+#server:
+#  port: 7070
+#  apiPath: "/api/moderation"
