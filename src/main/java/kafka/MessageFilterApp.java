@@ -199,7 +199,7 @@ public class MessageFilterApp {
       sendMessage(producer, "user4", new Message("blue", "user1"));
       sendMessage(producer, "user2", new Message("yellow", "user1"));
       sendMessage(producer, "user3", new Message("red", "user1"));
-      sendMessage(producer, "user5", new Message("black", "user1"));
+      sendMessage(producer, "user5", new Message("black night", "user1"));
 
       producer.flush();
       System.out.println("Все сообщения успешно отправлены");
